@@ -1,0 +1,86 @@
+  :root {
+    --background-color: hsl(0, 0%, 8%);
+    --hero-background:hsl(0, 0%, 12%);
+    --link-background:hsl(0, 0%, 20%);
+    --primay-green:hsl(75, 94%, 57%);
+    --light-bold:400;
+    --medium-bold:600;
+    --heavy-bold:700;
+    --font-size:14px;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color:white;
+    box-sizing: border-box;
+    font-family: Inter;
+  }
+  .container {
+    max-width: 22rem;
+    margin:5rem auto;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--hero-background);
+    align-items: center;
+    gap:15px;
+    padding: 30px 0;
+    border-radius: 5px;
+  }
+
+  h2,p {
+    margin: 0;
+  }
+
+  .profile {
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+
+  .profile img {
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+  }
+
+  .bio {
+    font-size: var(--font-size);
+    font-weight: var(--medium-bold);
+  }
+
+  .image-container {
+    margin: 10px 0 20px 0;
+  }
+
+  .location {
+    color:var(--primay-green);
+    margin: 3px 0 20px 0;
+    font-size: var(--font-size);
+    font-weight: var(--medium-bold);
+  }
+
+  .link {
+    text-align: center;
+    padding:14px 0;
+    background-color: var(--link-background);
+    width: 80%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: var(--font-size);
+  }
+
+  .link:hover{
+    background-color: var(--primay-green);
+    color: black;
+  }
+  .attribution {
+     font-size: 16px; 
+     text-align: center; 
+     /*margin: 20px 0 ;*/
+    }
+  .attribution a {
+       color: hsl(228, 45%, 44%);
+  }
